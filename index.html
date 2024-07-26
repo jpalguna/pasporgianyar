@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paspor Gianyar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="navbar-container">
+        <div class="nav-logo">
+          <p><a href="#">Paspor Gianyar.</a></p>
+        </div>
+        <ul class="menu-item">
+          <li><a href="#" class="hover-underline-animation">Beranda</a></li>
+          <li>
+            <a class="hover-underline-animation has-dropdown">Layanan kami</a>
+            <div class="dropdown-menu">
+              <div class="dropdown-container">
+                <div class="back-icon">
+                  <img src="img/back-icon.svg" alt="back-icon">
+                </div>
+                <div class="col">
+                  <h3>Paspor</h3>
+                  <ul>
+                    <li><a href="pembuatan-paspor.html">Pembuatan Paspor</a></li>
+                    <li><a href="perpanjangan-paspor.html">Perpanjangan Paspor</a></li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h3>Sertifikat Pelaut</h3>
+                  <ul>
+                    <li><a href="bst.html">BST</a></li>
+                    <li><a href="revalidasi-bst.html">Revalidasi BST</a></li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h3>Buku Pelaut</h3>
+                  <ul>
+                    <li><a href="pembuatan-buku-pelaut.html">Pembuatan buku pelaut</a></li>
+                    <li><a href="revalidasi-buku-pelaut.html">Revalidasi Buku Pelaut</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#about-us" class="hover-underline-animation">Tentang kami</a></li>
+        </ul>
+        <div class="nav-btn">
+          <button class="GFG" onclick="window.location.href = '#';">Hubungi kami</button>
+        </div>
+        <div class="menu-icon" id="menuIcon">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero section -->
+    <section id="home" class="hero-section">
+      <div class="hero-container">
+        <div class="hero-title">
+          <h2>Layanan Paspor Terpercaya</h2>
+        </div>
+        <div class="hero-description">
+          <p>Urus paspor Anda dengan mudah, cepat, dan terpercaya!</p>
+        </div>
+        <div class="hero-img">
+          <img src="img/hero-img.png" class="responsive-img" alt="hero-img" />
+        </div>
+        <div class="hero-statistics">
+          <div class="hero-statistics-container">
+            <div class="total-client">
+              <p class="statistics-title">1rb+</p>
+              <p class="statistics-text">Layanan kami telah dipercaya oleh lebih dari 1.000 klien.</p>
+            </div>
+            <div class="experience">
+              <p class="statistics-title">7 th</p>
+              <p class="statistics-text">Kami telah melayani selama lebih dari 7 tahun.</p>
+            </div>
+            <div class="satisfaction">
+              <p class="statistics-title">99%</p>
+              <p class="statistics-text">Hampir 99% klien kami puas dengan layanan kami!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service section -->
+    <section id="services" class="service-section">
+      <div class="service-container">
+        <div class="service-label">
+          <h3>Layanan kami</h3>
+        </div>
+        <div class="service-title">
+          <h2>Apa yang bisa kami bantu?</h2>
+        </div>
+        <div id="add-icon" class="accordion-container">
+          <button class="accordion">
+            <div class="accordion-number">
+              <p>01</p>
+            </div>
+            <div class="accordion-service">
+              <p>Paspor</p>
+            </div>
+            <div class="accordion-icon">
+              <img  class="arrow-icon animate-icon" src="img/panah-bawah.svg" alt="down-icon" />
+            </div>
+          </button>
+          <div class="panel">
+            <p>Paspor adalah dokumen resmi yang dikeluarkan oleh pemerintah suatu negara yang memuat identitas pemegangnya dan berlaku untuk melakukan perjalanan antar negara.</p>
+            <a href="paspor.html">Selengkapnya</a>
+          </div>
+          <button class="accordion">
+            <div class="accordion-number">
+              <p>02</p>
+            </div>
+            <div class="accordion-service">
+              <p>Sertifikat pelaut</p>
+            </div>
+            <div class="accordion-icon">
+              <img class="arrow-icon animate-icon" src="img/panah-bawah.svg" alt="down-icon" />
+            </div>
+          </button>
+          <div class="panel">
+            <p>
+              Sertifikat pelaut adalah dokumen resmi yang menyatakan keahlian dan kompetensi seorang individu untuk bekerja di atas kapal. Di Indonesia, sertifikat ini diatur dan dikeluarkan oleh Direktorat Jenderal Perhubungan Laut (Ditjen Hubla) Kementerian Perhubungan
+            </p>
+            <a href="sertifikat-pelaut.html">Selengkapnya</a>
+          </div>
+          <button id="add-icon" class="accordion">
+            <div class="accordion-number">
+              <p>03</p>
+            </div>
+            <div class="accordion-service">
+              <p>Buku pelaut</p>
+            </div>
+            <div class="accordion-icon">
+              <img class="arrow-icon animate-icon" src="img/panah-bawah.svg" alt="down-icon" />
+            </div>
+          </button>
+          <div class="panel">
+            <p>Seaman book atau buku pelaut adalah dokumen resmi negara yang wajib dimiliki oleh setiap pelaut Indonesia yang bekerja di kapal niaga.</p>
+            <a href="buku-pelaut.html">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About us section -->
+    <section id="about-us" class="about-us-section">
+      <div class="about-us-container">
+        <div class="about-us-left-colum">
+          <div class="about-us-label">
+            <h3>Tentang kami</h3>
+          </div>
+          <div class="about-us-title">
+            <h2>Profil kami</h2>
+          </div>
+          <div class="about-us-decription">
+            <p class="top-text">
+              Buat paspor RI tanpa ribet dan hemat waktu di <span>Paspor Gianyar!</span> Tim profesional kami siap membantu Anda dalam setiap langkah proses pembuatan paspor, dari pengumpulan dokumen hingga pengambilan paspor yang sudah
+              jadi.
+            </p>
+            <p class="bottom-text">Kami menawarkan berbagai layanan pembuatan paspor dengan harga terjangkau, proses mudah dan cepat, staf berpengalaman, dan komitmen untuk kepuasan pelanggan.</p>
+          </div>
+        </div>
+        <div class="about-us-right-colum">
+          <img class="about-us-img" src="img/about-us-img.png" alt="about us image" />
+        </div>
+      </div>
+    </section>
+    <!-- Testimoni section -->
+    <section class="testimoni-section">
+      <div class="testimoni-container">
+        <div class="testimoni-top-row">
+          <h3>Testimoni</h3>
+          <h2>Foto testimoni</h2>
+        </div>
+        <div class="grid-gallery">
+          <div class="grid-item">
+              <img src="img/img-1.png" alt="foto testimoni" />
+            </a>
+          </div>
+          <div class="grid-item">
+              <img src="img/img-2.png" alt="foto testimoni" />
+            </a>
+          </div>
+          <div class="grid-item">
+              <img src="img/img-3.png" alt="foto testimoni" />
+            </a>
+          </div>
+          <div class="grid-item">
+              <img src="img/img-4.png" alt="foto testimoni" />
+            </a>
+          </div>
+          <div class="grid-item">
+              <img src="img/img-6.png" alt="foto testimoni" />
+            </a>
+          </div>
+          <div class="grid-item">
+              <img src="img/img-5.png" alt="foto testimoni" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-title">
+          <p>Paspor Gianyar.</p>
+        </div>
+        <div class="footer-text">
+          <a class="privacy-policy" href="privacy&policy.html">Kebijakan Privasi</a>
+          <p class="copyright">Copyright © 2024 Paspor Gianyar. All Right Reserved</p>
+        </div>
+        <div class="footer-icon">
+          <a class="whatsapp-icon" href="#"><img src="img/WhatsApp.svg" alt="whatsapp-icon" /></a>
+          <a class="instagram-icon" href="#"><img src="img/Instagram.svg" alt="instagram-icon" /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
