@@ -186,6 +186,8 @@ nav .menu-item > li:hover .dropdown-menu {
   position: relative;
   user-select: none;
   z-index: 999999;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 /* Garis-garis pada hamburger menu */
