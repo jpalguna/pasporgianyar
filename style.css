@@ -6,13 +6,12 @@
   scroll-behavior: smooth;
 }
 
-button {
-  -webkit-tap-highlight-color: transparent;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
 /* You can do the same for links */
-a {
+p,
+a,
+,
+span,
+button {
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
