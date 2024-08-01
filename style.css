@@ -434,7 +434,7 @@ nav .menu-item > li:hover .dropdown-menu {
   content: "";
   position: relative;
   display: inline-block;
-  background: url(img/arrow_forward_ios.svg) no-repeat center;
+  background: url(icon/arrow_forward_ios.svg) no-repeat center;
   background-size: 10px;
   width: 10px;
   height: 10px;
@@ -831,7 +831,7 @@ nav .menu-item > li:hover .dropdown-menu {
   content: "";
   position: relative;
   display: inline-block;
-  background: url(img/arrow_forward_ios.svg) no-repeat center;
+  background: url(icon/arrow_forward_ios.svg) no-repeat center;
   background-size: 10px;
   width: 10px;
   height: 10px;
