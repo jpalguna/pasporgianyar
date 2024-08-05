@@ -1010,7 +1010,7 @@ table td {
 
   .dropdown-container {
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
     overflow-y: auto;
     max-height: 100vh;
     padding: 8px 0 0 32px;
