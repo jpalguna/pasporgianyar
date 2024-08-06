@@ -1,0 +1,22 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/truck5846/public_html/visabali.co
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp bst.html $DEPLOYPATH
+    - /bin/cp buku-pelaut.html $DEPLOYPATH
+    - /bin/cp ccm-pscrb-sdsd.html $DEPLOYPATH
+    - /bin/cp paspor.html $DEPLOYPATH
+    - /bin/cp pembuatan-buku-pelaut.html $DEPLOYPATH
+    - /bin/cp pembuatan-paspor.html $DEPLOYPATH
+    - /bin/cp perpanjangan-paspor.html $DEPLOYPATH
+    - /bin/cp privacy&policy.html $DEPLOYPATH
+    - /bin/cp revalidasi-bst.html $DEPLOYPATH
+    - /bin/cp revalidasi-buku-pelaut.html $DEPLOYPATH
+    - /bin/cp script.js $DEPLOYPATH
+    - /bin/cp sertifikat-pelaut.html $DEPLOYPATH
+    - /bin/cp ssat.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp -R font $DEPLOYPATH
+    - /bin/cp -R icon $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
